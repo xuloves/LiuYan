@@ -11,7 +11,7 @@ public class Consts {
     // 发送邮件的主机
     public static final String FROM = "2109874884@qq.com";
     // 发件人邮箱地址
-    public static final String PASSWORD = "tkxsuwdjnldrdibd";
+    public static final String PASSWORD = "此处填写QQ邮箱授权码";
     //授权码
     public static final String SUBJECT = "在线留言板";
 
