@@ -69,17 +69,17 @@
                         Total:${page.total}| Pages:${page.pages}
                     </h4>
                     <a
-                            href="/user/index?page=${page.firstPage}"><span
+                            href="/index?page=${page.firstPage}"><span
                             class="page prev-page">&laquo;</span></a>
                     <a
-                            href="/user/index?page=${page.prePage}"><span
+                            href="/index?page=${page.prePage}"><span
                             class="page prev-page">&lt;</span></a>
                     <span class="page now-page">${page.pageNum}</span>
                     <a
-                            href="/user/index?page=${page.nextPage}"><span
+                            href="/index?page=${page.nextPage}"><span
                             class="page next-page">&gt;</span></a>
                     <a
-                            href="/user/index?page=${page.lastPage}"><span
+                            href="/index?page=${page.lastPage}"><span
                             class="page next-page">&raquo;</span></a>
                 </div>
             </div>
