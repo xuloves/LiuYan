@@ -126,6 +126,8 @@ public class UserController {
         String password = SendMail.randomNum();
         try {
             SendMail.send(email, Consts.SUBJECT, Consts.TEXT + password);
+             user.setPassword(MD5Util.md5(password, Consts.SALT));
+            userService.updatePwd(user);
         } catch (MessagingException e) {
             throw new SysException("重置失败！");
         }
